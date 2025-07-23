@@ -1,7 +1,8 @@
-package assingnment1;
+package c2tcassignment1;
 
-public class entityclassassignment2 {
-	  public static void main(String[] args) {
+public class entityclassassignment {
+	public class Main {
+	    public static void main(String[] args) {
 	        Student s1 = new Student("Gokul", 20, "IT");
 	        Student s2 = new Student("Anu", 21, "CSE");
 	        Student s3 = new Student("Raj", 22, "ECE");
@@ -11,6 +12,5 @@ public class entityclassassignment2 {
 	        s2.display();
 	        s3.display();
 	    }
-
 
 }
